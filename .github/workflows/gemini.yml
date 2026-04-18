@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: 调用Gemini API
         run: |
-          curl "https://gemini-zhongzhuan.fkeuping.workers.dev/v1/chat/completions" \
+          curl "https://gemini.234cs.com/v1/chat/completions" \
             -H "Content-Type: application/json" \
             -H "Authorization: Bearer ${{ secrets.GEMINI_API_KEY }}" \
             -d '{
